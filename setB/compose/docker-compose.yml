@@ -7,7 +7,7 @@ services:
       - STUDENT=54910
       - REDIS_HOST=store
     ports:
-      - "9010:5000"   # 9000 + NN (your roll ends with 10 → 9010)
+      - "9010:5000"   
     networks:
       - backend-54910
 
